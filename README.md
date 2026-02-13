@@ -1,2 +1,35 @@
-# Remote-Controlled-Robot-
-Designed a multi-functional robot featuring autonomous obstacle avoidance and remote operation via Bluetooth and voice commands. Integrated an HC-SR04 ultrasonic sensor with a servo-scanning mechanism for real-time navigation. Developed a C++ control system on Arduino to interface with a smartphone application, managing four DC gear motors.
+Multi-Function Arduino Robot
+This repository contains the source code and documentation for a multi-functional robot built using the Arduino platform. The project integrates autonomous navigation and remote-controlled capabilities into a single robotic chassis.
+
+Features
+Obstacle Avoidance: Uses an ultrasonic sensor mounted on a servo motor to scan the environment and navigate around obstacles autonomously.
+
+Bluetooth Control: Manual navigation via a smartphone application using an HC-05/HC-06 Bluetooth module.
+
+Voice Control: Support for voice-activated commands to control movement through a mobile interface.
+
+Hardware Components
+Microcontroller: Arduino UNO
+
+Motor Driver: L293D Motor Driver Shield
+
+Sensors: HC-SR04 Ultrasonic Sensor
+
+Communication: HC-05 Bluetooth Module
+
+Actuators: * 4 x DC Gear Motors
+
+1 x SG90 Servo Motor
+
+Power: 2 x 18650 Li-ion Batteries (7.4V)
+
+Chassis: Foam board or acrylic base with 4 wheels
+
+Software Requirements
+IDE: Arduino IDE
+
+Libraries:
+
+AFMotor.h (for the L293D Shield)
+
+Servo.h (for ultrasonic scanning)
